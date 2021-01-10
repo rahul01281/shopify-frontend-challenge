@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.layout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 95vh;
+  color: white;
+  font-family: 'Montserrat';
+  min-width: 50%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  width: 60vw;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 30px;
+  border-style: none;
+  border: 1px solid #ccc;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.lower-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.content-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 30px;
+  background-color: #4b7bc9;
+  width: 30vw;
+  height: 60vh;
+  min-width: 300px;
+  min-height: 300px;
+  text-align: center;
+  margin: 5px;
+}
+
+.result-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: scroll;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-result {
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+  font-size: 16px;
+}
+
+.search-result:hover {
+  transform: scale(1.02);
+  color: #b2bed1;
+}
+
+.result-button {
+  font-size: 16px;
+  background: #b2bed1;
+  font-family: 'Montserrat';
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 6px;
+  max-height: 40px;
+  height: 20px;
+  align-self: center;
+  border-style: none;
+}
+
+.instructions {
+  position: relative;
+  top: 20px;
+  font-size: 24px;
+  color: black;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 2rem;
+  z-index: 1;
+  width: 100%;
+  opacity: 0.9;
+  margin-bottom: 1rem;
+  background: #4b7bc9;
+  color: #fff;
+}
+
+.result-button:focus {
+  outline: none;
+}
+
+.result-button:disabled {
+  color: gray;
+}
+
+.result-button:hover {
+  opacity: 0.8;
+}
+
+.result-button:hover {
+  opacity: 0.8;
+}
